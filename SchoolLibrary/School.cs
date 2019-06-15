@@ -80,6 +80,7 @@ namespace SchoolLibrary
             sb.Append(State);
             sb.Append("  ");
             sb.Append(Zip);
+            sb.Append(TwitterAddress);
             return sb.ToString();
         }
     }
