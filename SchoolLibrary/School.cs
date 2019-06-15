@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
+// A class library!
 namespace SchoolLibrary
 {
     public class School
