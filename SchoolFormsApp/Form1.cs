@@ -41,6 +41,22 @@ namespace SchoolFormsApp
                 MessageBox.Show(ex.Message);
             }
             MessageBox.Show(testSchool.ToString());
+
+        
+        }
+
+        private void BtnTestTeacher_Click(object sender, EventArgs e)
+        {
+            var teacher = new Teacher();
+            var gp = teacher.ComputeGradeAverage();
+            MessageBox.Show("The teacher GPA is " + gp);
+        }
+
+        private void BtnTestStudent_Click(object sender, EventArgs e)
+        {
+            var student = new Student();
+            var gp = student.ComputeGradeAverage();
+            MessageBox.Show("The student GPA is " + gp);
         }
     }
 }
